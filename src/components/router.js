@@ -3,9 +3,9 @@ import MyCategory from "../pages/mycategory";
 import Calendar from "../pages/calendar";
 
 const ROUTE_LIST = [
-  { path: "/", element: TodoMainPage },
-  { path: "/calendar", element: Calendar },
-  { path: "/myCategory", element: MyCategory },
+  { path: "/SOPTWebTodo", element: TodoMainPage },
+  { path: "/SOPTWebTodo/calendar", element: Calendar },
+  { path: "/SOPTWebTodo/myCategory", element: MyCategory },
 ];
 
 export default ROUTE_LIST;
