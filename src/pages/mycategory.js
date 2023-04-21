@@ -2,6 +2,7 @@ import "../CSS/mycategory.css";
 import "../JSfile/mycategory";
 import { localStorageApi } from "../Api/Api";
 
+
 function MyCategory($container) {
   this.$container = $container;
 
@@ -70,6 +71,7 @@ function MyCategory($container) {
     `;
   };
   this.render();
+
 }
 
 export default MyCategory;

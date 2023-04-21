@@ -108,6 +108,7 @@ function TodoMainPage($container) {
   
   };
   this.render();
+ 
 }
 
 export default TodoMainPage;
